@@ -16,7 +16,7 @@ class Book extends Component {
                     <div className='book-top'>
                         <div className='book-cover' style={ book && book.imageLinks && book.imageLinks.thumbnail && { backgroundImage: `url(${book.imageLinks.thumbnail})` }}></div>
                         <div className='book-shelf-changer'>
-                            <select defaultValue={book.shelf} onChange={(event) => changeHandler(event, book)}>
+                            <select defaultValue={this.props.book.shelf ? this.props.book.shelf : 'none'} onChange={(event) => changeHandler(event, book)}>
                                 <option value='none' disabled>Move to...</option>
                                 <option value='currentlyReading'>Currently Reading</option>
                                 <option value='wantToRead'>Want to Read</option>
