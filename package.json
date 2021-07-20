@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "form-serialize": "^0.7.2",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.2"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5",
+    "escape-string-regexp": "^1.0.5",
+    "sort-by": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "name": "reactnd-myreads-book-lending-app-master",
+  "description": "MyReads is a bookshelf application that categorizes and sort books based on whether you read, currently reading, want to read, or haven't read the books.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AhmedEmadElDeen"
+  },
+  "author": "Ahmed Emad ElDeen",
+  "license": "ISC"
+}
